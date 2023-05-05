@@ -1,0 +1,376 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* Header*/
+
+header {
+    background: linear-gradient(180deg, #144E00 0%, rgba(20, 78, 0, 0.7) 100%);
+}
+
+header a{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+#logo {
+    width: 50px;
+}
+
+#nav-bar {
+    padding: 1% 5%;
+}
+
+/* Classe Bloco */
+
+.bloco {
+    height: 100vh;
+}
+
+/* Home */
+
+#home {
+    background: #368F00;
+}
+
+#home h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.carrosel {
+    width: 40%;
+}
+
+.redondo {
+    border-radius: 5%;
+}
+
+/* Sobre */
+
+
+#sobre {
+    background: #EEEEEE;
+    height: auto;
+    width: 100%;
+}
+
+.conteudo3 {
+    width: 100%;
+}
+
+#img-empresa {
+    box-sizing: border-box;
+    width: 350px;
+    margin: 15% 0;
+}
+
+.txt-sobre {
+    padding: 2%;
+    width: 500px;
+    border-left: solid 1px green;
+}
+
+/* Nosso time */
+
+#nosso-time {
+    background: #EEEEEE;
+}
+
+.conteudo3 {
+    width: 70%;
+}
+
+/* Serviços */
+
+#serviços {
+    background: #368F00;
+}
+
+.btnM {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+}
+
+.btnM:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+#img-fundo1 {
+    background-image: url(imgs/Ex\ desing.jpg);
+    background-size: cover;
+}
+
+#img-fundo2 {
+    background-image: url(imgs/Ex\ midia\ social.jpg);
+    background-size: cover;
+}
+
+#img-fundo3 {
+    background-image: url(imgs/Ex\ trafico.jpg);
+    background-size: cover;
+}
+
+.img-fundo, .btnM {
+    border-radius: 50px;
+}
+
+.branquinho {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btnM h3{
+    width: 100%;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btnM p {
+    font-size: 16px;
+}
+
+/* Projetos */
+
+#projetos {
+    background: #EEEEEE;
+}
+
+.conteudo {
+    width: 80%;
+}
+
+#imagem1 {
+   height: 300px;
+   margin-right: 15px;
+}
+
+#imagem2 {
+    height: 300px;
+    margin-right: 15px;
+}
+
+#imagem3 {
+    height: 300px;
+}
+
+#imagem4 {
+    height: 215px;
+    margin-right: 20px;
+}
+
+#imagem5 {
+    height: 215px;
+}
+
+#imgs-projetos{
+    height: 600px;
+}
+
+#imgs-cima {
+    margin: 2% 0;
+}
+
+/* Contato */
+
+#bloco6 {
+    width: 100%;
+    height: 800px;
+    background: #368F00;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#bloco6 h3 {
+    margin-top: 10%;
+}
+
+#bloco6 p {
+    width: 50%;
+    margin-top: 1%;
+}
+
+#contato-email {
+    width: 60%;
+}
+
+#contato-email form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-top: 6%;
+
+    background: #404040;
+
+}
+
+.Enome {
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    background: #b8b8b8
+}
+
+#mensagem {
+    border: none;
+    background: #b8b8b8;
+    height: 100px;
+}
+
+#enviar {
+    width: 150px;
+    margin: 0 auto;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    background: #e2ffa7;
+}
+
+#enviar:hover {
+    cursor: pointer;
+    background-color: #e2ffa787;
+}
+
+#whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#whatsapp a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: rgb(0, 187, 0);
+    padding: 7px;
+    border-radius: 15px;
+}
+
+@media (max-width: 1000px){
+    /*Home*/
+    #home {
+        padding-top: 13%;
+    }
+
+    .carrosel {
+        width: 350px;
+    }
+
+    /*Nosso time*/
+    #sobre {
+        height: auto;
+    }
+
+    .conteudo3 {
+        width: 70%;
+    }
+
+    #img-empresa {
+        margin: 10% 0; 
+    }
+
+    .txt-sobre {
+        margin-bottom: 10%;
+    }
+
+    /*Nosso time*/
+    .conteudo2 {
+        width: 90%;
+    }
+
+    /*Serviços */
+    #serviços {
+        height: auto;
+        padding: 10% 0;
+    }
+    
+    .conteudo {
+        width: 50%;
+    }
+
+    .conteudo div{
+        margin-bottom: 5%;
+    }
+
+    /* Projetos */
+    #projetos {
+        height: auto;
+    }
+
+    .container {
+        width: 800px;
+    }
+
+    #imgs-cima {
+        flex-direction: row;
+        height: auto;
+    }
+
+    #imagem1 {
+        height: 300px;
+        margin-top: 10%;
+    }
+     
+     #imagem2 {
+         height: 300px;
+    }
+     
+     #imagem3 {
+         height: 300px;
+    }
+     
+     #imagem4 {
+         height: 220px;
+    }
+     
+     #imagem5 {
+         height: 220px;
+         margin-bottom: 5%;
+    }
+     
+     #imgs-projetos{
+         height: 600px;
+    }
+
+    /*Contato*/
+    .Enome {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px){
+    .conteudo4{
+        width: auto;
+    }
+
+    #img-cima, #img-baixo{
+        width: 90%;
+    }
+
+    #imagem2 {
+        width: 350px;
+    }
+
+    #imagem4 {
+        width: 350px;
+    }
+    
+    #imagem5 {
+        width: 350px;
+    }
+
+    /*Contato*/
+
+    #bloco6 h1{
+        font-size: 30px;
+    }
+}
